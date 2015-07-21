@@ -10,7 +10,7 @@ How to prepare a baseline installation Linux distribution on a virtual machine t
 
 
 2. Create a New User 
-    We want to (disable root login via SSH)[http://unix.stackexchange.com/questions/82626/why-is-root-login-via-ssh-so-bad-that-everyone-advises-to-disable-it] so we need to create a new user. 
+    We want to [disable root login via SSH](http://unix.stackexchange.com/questions/82626/why-is-root-login-via-ssh-so-bad-that-everyone-advises-to-disable-it) so we need to create a new user. 
 
     ```
     adduser {username}
@@ -35,7 +35,7 @@ How to prepare a baseline installation Linux distribution on a virtual machine t
     nano /etc/ssh/sshd_config
     ```
 
-    If you would like, change the SSH port to be something besides the default port 22. This (may reduce)[http://security.stackexchange.com/questions/32308/should-i-change-the-default-ssh-port-on-linux-servers] the number of attempted attacks on your server.
+    If you would like, change the SSH port to be something besides the default port 22. This [may reduce](http://security.stackexchange.com/questions/32308/should-i-change-the-default-ssh-port-on-linux-servers) the number of attempted attacks on your server.
     ```
     # What ports, IPs and protocols we listen for
     Port {your-new-port-number between 1025 and 65536}
@@ -61,5 +61,5 @@ List all available commands you can run: `compgen -c`
 
 
 #### References
-(Steps 1-4)[https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04]
+[Steps 1-4](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04)
 
