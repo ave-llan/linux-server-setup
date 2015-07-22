@@ -3,6 +3,7 @@ How to disable root login via SSH and prepare a user account with sudo privilege
 ### Goals
 
 - Disable root login. 
+    
     See: [Why is root login via SSH so bad that everyone advises to disable it?](http://unix.stackexchange.com/questions/82626/why-is-root-login-via-ssh-so-bad-that-everyone-advises-to-disable-it)
 
 - Create a user account with permission to sudo since you won't be able to SSH in as root.
@@ -14,7 +15,7 @@ How to disable root login via SSH and prepare a user account with sudo privilege
 
 ### Assumptions
 
-- Your cloud provider has provided you with an rsa key (as is the case with AWS) for initial access.
+- Your cloud provider has provided you with an RSA key (as is the case with AWS) for initial access.
 
 ### Steps
 
@@ -42,7 +43,10 @@ How to disable root login via SSH and prepare a user account with sudo privilege
     ```
     {username}   ALL=(ALL:ALL) NOPASSWD:ALL
     ``` 
-    This will give the user sudo privileges without asking for their password.
+    This will give the user sudo privileges without asking for their password. If you would like to require a password, instead set this line to:
+    ```
+    {username}   ALL=(ALL:ALL) ALL
+    ```
 
 
 4. Configure the RSA key to work for the new user account.
