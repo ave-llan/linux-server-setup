@@ -32,6 +32,8 @@ How to prepare a baseline installation Linux distribution on a virtual machine t
     ```
     {username}   ALL=(ALL:ALL) NOPASSWD:ALL
     ``` 
+    This will give the user sudo privileges without asking for their password.
+    
 
 4. Configure rsa key for the user
 
