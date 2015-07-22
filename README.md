@@ -91,7 +91,7 @@ List all available commands you can run: `compgen -c`
 
 #### References & Credits & Thanks
 
-Steps 1-3 [Digital Ocean](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04)
+Steps 1-3, 5 [Digital Ocean](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04)
 
 Step 4 [Carlos Camargo](https://www.linkedin.com/in/vcarlos)
 
