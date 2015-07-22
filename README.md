@@ -89,6 +89,9 @@ How to prepare a baseline installation Linux distribution on a virtual machine t
 List all available commands you can run: `compgen -c`
 
 
-#### References
-[Steps 1-4](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04)
+#### References & Credits & Thanks
+
+Steps 1-3 [Digital Ocean](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04)
+
+Step 4 [Carlos Camargo](https://www.linkedin.com/in/vcarlos)
 
