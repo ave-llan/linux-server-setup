@@ -2,14 +2,14 @@ How to prepare a baseline installation Linux distribution on a virtual machine t
 
 ### Assumptions
 
-- Your cloud provider has provided you with an rsa key (as is the case with AWS).
+- Your cloud provider has provided you with an rsa key (as is the case with AWS) for initial access.
 
 ### Steps
 
 1. Connect to your virtual machine using SSH.
 
     ```
-    ssh root@{your-server-ip-address} -i {rsa key file}
+    ssh root@{your-server-ip-address} -i {rsa identity file}
     ```
 
 
@@ -55,7 +55,7 @@ How to prepare a baseline installation Linux distribution on a virtual machine t
     chown {username}:{users-default-groupname} /home/{username}/.ssh/authorized_keys
     ```
 
-    Verify owner permission's are limited to read and write for the user
+    Verify owner permission's are limited to read and write for the user.
 
 
 5. Configure SSH 
