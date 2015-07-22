@@ -56,12 +56,11 @@ How to disable root login via SSH and prepare a user account with sudo privilege
     ```
     login {username}
     ssh localhost
-
     ```
 
     The ssh request will fail, but there will now be a .ssh directory in the user's home folder. 
 
-    Logout of the user's account, copy the root authroized_keys to the users .ssh directory, and make the user the owner of the copied file.
+    Logout of the user's account, copy the root authroized_keys to the users .ssh directory, and set the user as the owner of the copied file.
 
     ```
     logout
