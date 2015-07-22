@@ -5,7 +5,7 @@ How to configure the Uncomplicated Firewall (UFW) and change the SSH port.
 
 - Change the SSH port to be something besides the default port 22. This may reduce the number of attempted attacks on your server.
 
-    See: [Should I change the default SSH port on linux servers?](http://security.stackexchange.com/questions/32308/should-i-change-the-default-ssh-port-on-linux-servers) the number of attempted attacks on your server.
+    See: [Should I change the default SSH port on linux servers?](http://security.stackexchange.com/questions/32308/should-i-change-the-default-ssh-port-on-linux-servers)
 
 
 ### Steps
@@ -13,7 +13,7 @@ How to configure the Uncomplicated Firewall (UFW) and change the SSH port.
 1.  Change the SSH port.
 
     
-    While looged in as a user with sudo privileges, change your SSH port from the default 22 to a number in [1025, 65536). Make a note of your new port number or you will be unable to login.
+    While looged in as a user with sudo privileges, change your SSH port from the default 22 to a number in [1025, 65536). Make a note of your new port number or you will be unable to login after making this change.
 
     Open the sshd configuration file:
     ```
