@@ -35,7 +35,31 @@ How to configure the Uncomplicated Firewall (UFW) and change the SSH port.
     ssh {username}@{your-server-ip-address} -i {rsa identity file} -p {your-new-port-number}
     ```
 
+2. Create a temporary backdoor.
+
+    To avoid locking yourself out, first create a temporary backdoor with [your ip address](https://www.whatismyip.com/).
+    ```
+    sudo ufw allow from {your-ip-address}
+    ```
+
+    Later on, you can remove this backdoor:
+    ```
+    sudo ufw delete allow from {your-ip-address}
+    ``` 
+
+
+3. Only allow incoming packets on your SSH port, HTTP (port 80), and NTP (port 123).
+    
+    Create a new rule allowing incoming tcp and udp packets on each of these ports.
+    ```
+    sudo ufw allow {your-new-SSH-port-number}
+    sudo ufw allow 80
+    sudo ufw allow 123
+    ```
+
 
 #### References & Credits
 
 Step 1: [Digital Ocean](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04)
+
+Step 2-3: [Ubuntu](https://help.ubuntu.com/community/UFW)
