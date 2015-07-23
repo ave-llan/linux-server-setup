@@ -11,9 +11,3 @@ Short guides describing how to prepare a baseline installation Linux distributio
 3. [Update all currently installed packages.](how-to/update-packages.md)
 
 
-#### Thanks to
-
-[Digital Ocean](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04)
-
-[Carlos Camargo](https://www.linkedin.com/in/vcarlos)
-
