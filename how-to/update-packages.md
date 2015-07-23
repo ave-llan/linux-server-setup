@@ -1,12 +1,12 @@
 Update all currently installed packages.
 
 
-#### Goals
+### Goals
 
 - Update all currently installed packages and then remove packages which are no longer necessary.
 
 
-## Steps
+# Steps
 
 
 1.  Update the Package Index.
