@@ -21,7 +21,7 @@ Update all currently installed packages.
     ```
     sudo apt-get dist-upgrade
     ```
-    In addition to performing the functions of `apt-get upgrade`, `apt-get dist-upgrade`will intelligently attempt to upgrade the most important packages at the expense of less important ones. 
+    In addition to performing the function of `apt-get upgrade`, `apt-get dist-upgrade`will intelligently attempt to upgrade the most important packages at the expense of less important ones. 
     
 
 3.  Remove packages which are no longer needed.
@@ -29,6 +29,13 @@ Update all currently installed packages.
     Clean up by removing previously installed packages that were automatically installed to satisfy dependencies which no longer exist.
     ```
     sudo apt-get autoremove
+    ```
+
+4.  If needed, restart the machine.
+
+    You may need to restart the machine if new packages were installed.
+    ```
+    sudo reboot
     ```
 
 
