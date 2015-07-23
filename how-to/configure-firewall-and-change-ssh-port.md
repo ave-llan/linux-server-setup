@@ -13,7 +13,7 @@ How to configure the Uncomplicated Firewall (UFW) and change the SSH port.
 1.  Change the SSH port.
 
     
-    While looged in as a user with sudo privileges, change your SSH port from the default 22 to a number in [1025, 65536). Make a note of your new port number or you will be unable to login after making this change.
+    While logged in as a user with sudo privileges, change your SSH port from the default 22 to a number in [1025, 65536). Make a note of your new port number, or you will be unable to login after making this change.
 
     Open the sshd configuration file:
     ```
