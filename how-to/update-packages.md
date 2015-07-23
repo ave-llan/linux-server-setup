@@ -11,8 +11,6 @@ Update all currently installed packages.
 
 1.  Update the Package Index.
 
-    
-    While logged in as a user with sudo privileges, update the package index:
     ```
     sudo apt-get update
     ```
@@ -20,7 +18,6 @@ Update all currently installed packages.
 
 2.  Upgrade the packages.
 
-    And change the following line to set your new port number:
     ```
     sudo apt-get dist-upgrade
     ```
@@ -38,5 +35,6 @@ Update all currently installed packages.
 #### References & Credits
 
 [Ubuntu](https://help.ubuntu.com/lts/serverguide/apt-get.html)
+
 [apt-get manual](http://manpages.debian.org/cgi-bin/man.cgi?query=apt-get)
 
