@@ -17,7 +17,7 @@ How to disable root login via SSH and prepare a user account with sudo privilege
 
 - Your cloud provider has provided you with an RSA key (as is the case with AWS) for initial access.
 
-### Steps
+# Steps
 
 1. Connect to your virtual machine using SSH.
 

@@ -8,7 +8,7 @@ How to configure the Uncomplicated Firewall (UFW) and change the SSH port.
     See: [Should I change the default SSH port on linux servers?](http://security.stackexchange.com/questions/32308/should-i-change-the-default-ssh-port-on-linux-servers)
 
 
-### Steps
+# Steps
 
 1.  Change the SSH port.
 
