@@ -57,6 +57,13 @@ How to configure the Uncomplicated Firewall (UFW) and change the SSH port.
     sudo ufw allow 123
     ```
 
+4. Enable the firewall.
+
+    ```
+    sudo ufw enable
+    ```
+
+    If you need to disable the firewall at some point, call `sudo ufw disable`.
 
 #### References & Credits
 
