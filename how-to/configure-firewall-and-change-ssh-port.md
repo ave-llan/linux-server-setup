@@ -69,4 +69,4 @@ How to configure the Uncomplicated Firewall (UFW) and change the SSH port.
 
 Step 1: [Digital Ocean](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04)
 
-Step 2-3: [Ubuntu](https://help.ubuntu.com/community/UFW)
+Step 2-4: [Ubuntu](https://help.ubuntu.com/community/UFW)
