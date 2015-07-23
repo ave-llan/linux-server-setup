@@ -8,6 +8,8 @@ Short guides describing how to prepare a baseline installation Linux distributio
 
 2. [Configure the uncomplicated firewall and change the SSH port.](how-to/configure-firewall-and-change-ssh-port.md)
 
+3. [Update all currently installed packages.](how-to/update-packages.md)
+
 
 #### Thanks to
 
