@@ -42,10 +42,7 @@ How to configure the Uncomplicated Firewall (UFW) and change the SSH port.
     sudo ufw allow from {your-ip-address}
     ```
 
-    Later on, you can remove this backdoor:
-    ```
-    sudo ufw delete allow from {your-ip-address}
-    ``` 
+    Later on, you can remove this backdoor by calling `sudo ufw delete allow from {your-ip-address}`.
 
 
 3. Only allow incoming packets on your SSH port, HTTP (port 80), and NTP (port 123).
