@@ -10,4 +10,6 @@ Short guides describing how to prepare a baseline installation Linux distributio
 
 3. [Update all currently installed packages.](how-to/update-packages.md)
 
+4. [Install Apache and configure it to serve a Python mod_wsgi application.](how-to/install-configure-apache.md)
 
+5. [Install and configure PostgreSQL to work with SQLAlchemy.](how-to/install-postgres-and-configure.md)
