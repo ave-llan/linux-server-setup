@@ -32,7 +32,7 @@ How to install and configure [PostgreSQL](http://www.postgresql.org/) to work wi
     ```
 
 
-3. Require a password from the newly created user.
+3. Configure PostgreSQL to look for a password from the newly created user.
 
     Open the configuration file.
     ```
