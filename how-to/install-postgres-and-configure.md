@@ -25,10 +25,10 @@ How to install and configure [PostgreSQL](http://www.postgresql.org/) to work wi
 
     `postgres` is the default superuser for PostgreSQL, so we will need to run the `createuser` command as postgres using `sudo -u postgres`.
     Then call `createuser` with the following flags:
-    - `-D` will allow the user to create databases. 
+    - `-d` will allow the user to create databases. 
     - `-P` will issue a prompt to create a password.
     ```
-    sudo -u postgres createuser {username} -D -P
+    sudo -u postgres createuser {username} -d -P
     ```
 
 
