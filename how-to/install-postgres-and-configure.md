@@ -54,10 +54,16 @@ How to install and configure [PostgreSQL](http://www.postgresql.org/) to work wi
 4. Create a database as the new user.
 
     ```
-    createdb -U {username} --locale=en_US.utf-8 -E utf-8 -O {username} {db-name} -T template0
+    createdb -U {username} --locale=en_US.utf-8 -E utf-8 -O {username} {dbname} -T template0
     ```
 
-5. 
+5. Build a Database Url for an SQLAlchemy engine.
+
+    Create your [SQLAlchemy Engine](http://docs.sqlalchemy.org/en/rel_1_0/core/engines.html) by adding the following to your app:
+    ```
+    from sqlalchemy import create_engine
+    engine = create_engine('postgresql://{username}:{password}@localhost/{dbname}')
+    ```
 
 
 #### References & Credits
@@ -70,4 +76,4 @@ Step 3: [PostgreSQL: auth-pg-hba-conf](http://www.postgresql.org/docs/9.4/static
 
 Step 4: [killtheyak](http://killtheyak.com/use-postgresql-with-django-flask/)
 
-
+Step 5: [SQLAlchemy](http://docs.sqlalchemy.org/en/rel_1_0/core/engines.html#postgresql)
