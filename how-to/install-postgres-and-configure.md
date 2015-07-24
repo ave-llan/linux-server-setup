@@ -57,14 +57,17 @@ How to install and configure [PostgreSQL](http://www.postgresql.org/) to work wi
     createdb -U {username} --locale=en_US.utf-8 -E utf-8 -O {username} {db-name} -T template0
     ```
 
-
+5. 
 
 
 #### References & Credits
 
 Step 1: [Ubuntu](https://help.ubuntu.com/community/PostgreSQL)
+
 Step 2: [PostgreSQL: app-createuser](http://www.postgresql.org/docs/9.4/static/app-createuser.html)
+
 Step 3: [PostgreSQL: auth-pg-hba-conf](http://www.postgresql.org/docs/9.4/static/auth-pg-hba-conf.html), [stackoverflow](http://stackoverflow.com/questions/17443379/psql-fatal-peer-authentication-failed-for-user-dev)
+
 Step 4: [killtheyak](http://killtheyak.com/use-postgresql-with-django-flask/)
 
 
