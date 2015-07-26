@@ -1,5 +1,12 @@
-Short guides describing how to prepare a baseline installation Linux distribution on a virtual machine to host web applications.
+Short guides describing how to prepare a baseline installation Linux distribution on a virtual machine to host a Flask web application which interacts with a PostgreSQL database using SQLAlchemy.
 
+#### Udacity Review Information
+
+App IP Address: [52.27.94.221](http://52.27.94.221/)
+
+SSH port: 2200
+
+I have detailed the steps I took and the resources I used below. 
 
 ### Recommended Steps
 
