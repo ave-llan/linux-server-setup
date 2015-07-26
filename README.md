@@ -22,3 +22,5 @@ I have detailed the steps I took and the resources I used below.
 5. [Install git and clone a repository.](how-to/install-git-clone-repository.md)
 
 6. [Install Apache and configure it to serve a Flask app.](how-to/serve-flask-with-appache.md)
+
+7. [Monitor for repeat unsuccessful login attempts and ban attackers.](how-to/ban-attackers.md)
