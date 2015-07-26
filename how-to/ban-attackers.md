@@ -1,8 +1,6 @@
 ### Goals
 
-- Install and set up Git.
-- Clone a repository.
-
+- Install and set up Fail2ban.
 
 # Steps
 
