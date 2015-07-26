@@ -2,7 +2,7 @@
 
 - Install Apache and configure it to serve a Python mod_wsgi application.
 
-
+- Install Flask
 # Steps
 
 
@@ -21,7 +21,7 @@
     ```
     sudo apt-get install libapache2-mod-wsgi python-dev
     ```
-    
+
     To enable mod_wsgi:
     ```
     sudo a2enmod wsgi
