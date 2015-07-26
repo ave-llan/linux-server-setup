@@ -108,4 +108,4 @@ How to disable root login via SSH and prepare a user account with sudo privilege
 
 Steps 1-3, 6: [Digital Ocean](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04)
 
-Step 4: [Carlos Camargo](https://www.linkedin.com/in/vcarlos)
+Step 4: [Another Cloud](http://anothercloud.net)
