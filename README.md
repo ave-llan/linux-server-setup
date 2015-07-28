@@ -1,17 +1,8 @@
 Short guides describing how to prepare a baseline installation Linux distribution on a virtual machine to host a Flask web application which interacts with a PostgreSQL database using SQLAlchemy.
 
-#### Udacity Review Information
-
-App IP Address: [52.27.94.221](http://52.27.94.221/)
-
-SSH port: 2200
-
-I have detailed the steps I took and the resources I used below. 
-
 ### Recommended Steps
 
 1. [Disable root login via SSH and prepare a user account with sudo privileges.](how-to/disable-root-login-via-SSH.md)
-
 
 2. [Configure the uncomplicated firewall and change the SSH port.](how-to/configure-firewall-and-change-ssh-port.md)
 
